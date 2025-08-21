@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>WeChat 静默登录日志</h1>
+  <p>
+    <a class="btn" href="/wechat/admin/logs">刷新</a>
+    <form action="/wechat/admin/logs" method="post" style="display:inline">
+      <input type="hidden" name="_method" value="delete">
+      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+      <button class="btn btn-danger" type="submit">清空</button>
+    </form>
+  </p>
+  <pre style="background:#f7f7f7; padding:12px; border-radius:6px; max-height:70vh; overflow:auto;">
+<% @entries.each do |e| %>
+[<%= e["ts"] %>] <%= e["msg"] %>
+<% end %>
+  </pre>
+  <p style="color:#888">也可用 JSON：<code>/wechat/admin/logs.json?limit=200</code></p>
+</div>
