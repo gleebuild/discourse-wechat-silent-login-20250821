@@ -1,0 +1,31 @@
+plugins:
+  wechat_login_enabled:
+    default: true
+    client: true
+  wechat_appid:
+    default: ""
+    client: false
+  wechat_appsecret:
+    default: ""
+    client: false
+  wechat_scope:
+    default: "snsapi_base"
+    choices:
+      - "snsapi_base"
+      - "snsapi_userinfo"
+    client: false
+  wechat_only_wechat_ua:
+    default: true
+    client: false
+  wechat_password_mode:
+    default: "random"
+    choices:
+      - "random"
+      - "derive_from_openid"
+    client: false
+  wechat_password_salt:
+    default: ""
+    client: false
+  wechat_log_enabled:
+    default: true
+    client: false
