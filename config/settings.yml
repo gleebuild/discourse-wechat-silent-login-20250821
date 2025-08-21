@@ -1,0 +1,16 @@
+plugins:
+  wechat_login_enabled:
+    default: true
+    client: true
+  wechat_appid:
+    default: ""
+    client: false
+  wechat_appsecret:
+    default: ""
+    client: false
+  wechat_only_wechat_ua:
+    default: true
+    client: false
+  wechat_callback_host:
+    default: ""
+    client: false
