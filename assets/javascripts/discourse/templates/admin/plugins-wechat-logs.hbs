@@ -1,0 +1,12 @@
+<div class="wechat-logs">
+  <h2>WeChat 静默登录日志</h2>
+  <p class="controls">
+    <button class="btn" {{on "click" this.refresh}}>刷新</button>
+    <button class="btn btn-danger" {{on "click" this.clear}}>清空</button>
+  </p>
+  <pre class="logs">
+{{#each this.model.entries as |e|}}
+[{{e.ts}}] {{e.msg}}
+{{/each}}
+  </pre>
+</div>
