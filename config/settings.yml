@@ -1,0 +1,17 @@
+
+plugins:
+  wechat_silent_login_enabled:
+    default: false
+    client: false
+  wechat_app_id:
+    default: ""
+    client: false
+  wechat_app_secret:
+    default: ""
+    client: false
+  wechat_cookie_domain:
+    default: ""
+    client: false
+  wechat_scope:
+    default: "snsapi_base"
+    client: false
