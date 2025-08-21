@@ -1,0 +1,7 @@
+en:
+  js:
+    login:
+      wechat:
+        name: "WeChat"
+        title: "with WeChat"
+        message: "Authenticating with WeChat…"

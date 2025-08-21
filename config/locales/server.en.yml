@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    wechat_login_enabled: "Enable WeChat login"
+    wechat_appid: "WeChat AppID (公众号)"
+    wechat_appsecret: "WeChat AppSecret (应用密钥)"
+    wechat_scope: "OAuth scope (snsapi_base for silent login in WeChat webview)"
+    wechat_only_wechat_ua: "Only trigger silent login inside WeChat user agent"
