@@ -1,7 +1,0 @@
-en:
-  site_settings:
-    wechat_login_enabled: "Enable WeChat login"
-    wechat_appid: "WeChat AppID (Service Account)"
-    wechat_appsecret: "WeChat AppSecret"
-    wechat_only_wechat_ua: "Only trigger silent login inside WeChat user agent"
-    wechat_callback_host: "(Optional) Force callback host for redirect_uri, e.g. m.lebanx.com"
