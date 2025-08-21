@@ -1,0 +1,6 @@
+en:
+  site_settings:
+    wechat_silent_login_enabled: "Enable silent WeChat openid auto-login (snsapi_base)"
+    wechat_only_wechat_ua: "Only trigger in WeChat in-app browser (MicroMessenger)"
+    wechat_app_id: "WeChat AppID (mp) used for OAuth snsapi_base"
+    wechat_app_secret: "WeChat App Secret"
